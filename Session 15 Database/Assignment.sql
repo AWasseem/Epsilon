@@ -1,5 +1,5 @@
 use employees;
--- Github URL 
+-- Github URL https://github.com/AWasseem/Epsilon/tree/51690923cbdb1d5d6fa1d3677660856dccd9dee5/Session%2015%20Database
 -- 1 - Select all data from the “departments” table.
 SELECT 
     *
