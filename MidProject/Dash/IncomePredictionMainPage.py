@@ -24,7 +24,7 @@ dash.register_page(__name__, name="Home", path="/")
 # Load the data
 file_path = os.path.join(
     os.getcwd(),
-    "GitHubProjects",
+    "Session 28 ML Data_Preprocessing + TestTrain Data+ impalnced classes + data leakage",
     "Mid Project",
     "Dash",
     "Train_cleaned.csv",
