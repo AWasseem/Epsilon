@@ -20,7 +20,7 @@ st.markdown(html_title, unsafe_allow_html=True)
 
 df = pd.read_csv('FinalProjectML/HeartAttack_cleaned_df.csv')
 df.dropna(inplace=True)
-st.dataframe(df)
+st.dataframe(df.head(20))
 
 Sex = st.sidebar.radio('Sex', df.Sex.unique())
 PhysicalHealthDays= st.sidebar.slider('Physical Health Days', int(df.PhysicalHealthDays.min()), int(df.PhysicalHealthDays.max()), int(df.PhysicalHealthDays.mean()))
