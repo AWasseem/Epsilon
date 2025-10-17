@@ -7,12 +7,13 @@ from sklearn.preprocessing import  RobustScaler, OneHotEncoder, OrdinalEncoder
 from category_encoders import  BinaryEncoder
 from imblearn.over_sampling import  SMOTE
 from sklearn.neighbors import KNeighborsClassifier
+from imblearn.pipeline import Pipeline as ImbPipeline
 
 st.set_page_config(layout= 'wide', page_title= 'Heart Attack Prediction Project')
 html_title = "<h1 style=color:white;text-align:center;> Heart Attack Prediction Project </h1>"
 st.markdown(html_title, unsafe_allow_html=True)
 
-df = pd.read_csv('HeartAttack_cleaned_df.csv')
+df = pd.read_csv('FinalProjectML/HeartAttack_cleaned_df.csv')
 df.dropna(inplace=True)
 st.dataframe(df)
 
