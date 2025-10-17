@@ -9,6 +9,10 @@ from imblearn.over_sampling import  SMOTE
 from sklearn.neighbors import KNeighborsClassifier
 from imblearn.pipeline import Pipeline as ImbPipeline
 import joblib
+from lightgbm import LGBMClassifier
+from xgboost import XGBClassifier
+from catboost import CatBoostClassifier
+from lightgbm import LGBMClassifier
 
 st.set_page_config(layout= 'wide', page_title= 'Heart Attack Prediction Project')
 html_title = "<h1 style=color:white;text-align:center;> Heart Attack Prediction Project </h1>"
