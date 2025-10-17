@@ -4,6 +4,6 @@ imbalanced_learn==0.13.0
 joblib==1.4.2
 lightgbm==4.6.0
 pandas==2.3.3
-scikit_learn==1.7.2
+scikit_learn==1.6.1
 streamlit==1.44.1
 xgboost==3.0.5
