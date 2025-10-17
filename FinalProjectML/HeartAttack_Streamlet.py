@@ -53,7 +53,7 @@ HighRiskLastYear= st.sidebar.radio('High Risk Last Year',df.HighRiskLastYear.uni
 CovidPos= st.sidebar.selectbox('Covid Positive',df.CovidPos.unique())
 
 # Import Model
-Model = joblib.load('./LightGPM.pkl')
+Model = joblib.load('FinalProjectML/LightGPM.pkl')
 
 input_cols = df.columns.drop('HadHeartAttack')
 input_data = pd.DataFrame(columns=input_cols,data= [ [Sex,GeneralHealth,PhysicalHealthDays,MentalHealthDays,LastCheckupTime
