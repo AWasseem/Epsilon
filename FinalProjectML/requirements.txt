@@ -2,5 +2,5 @@ category_encoders==2.8.1
 imbalanced_learn==0.13.0
 joblib==1.4.2
 pandas==2.3.3
-scikit_learn==1.7.2
+scikit_learn==1.6.1
 streamlit==1.44.1
